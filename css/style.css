@@ -153,7 +153,7 @@ button:hover {
 }
 
 .block2__wrapper {
-    padding-top: 60px;
+    padding: 60px 0 90px
 }
 
 .block2__content {
@@ -225,4 +225,50 @@ h5 {
     margin: 0;
     padding-top: 10px;
     font-size: 13px;
+}
+
+.block3__wrapper {
+    padding-bottom: 60px;
+}
+
+.block3__content {
+    justify-content: space-evenly;
+    padding: 0 40px;
+}
+
+h6 {
+    font-size: 36px;
+    margin: 0 0 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #6f7173;
+}
+
+
+
+.block3__item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 15px 40px;
+}
+
+h7 {
+    font-size: 28px;
+    color: gray;
+}
+
+.block3__content p {
+    margin: 0;
+    padding-top: 18px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer__content {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 30px 0 40px 0;
+    font-size: 14px;
+    color: #ccc;
 }
